@@ -1,3 +1,7 @@
+## Fluffyvision
+Fluffyvision makes it easy to use LLaVA by integrating a GUI that lets you choose a directory along with an instruction and it will generate a response for each image in the directory.
+More info about LLaVA can be found below.
+
 # 🌋 LLaVA: Large Language and Vision Assistant
 
 *Visual instruction tuning towards large language and vision models with GPT-4 level capabilities.*

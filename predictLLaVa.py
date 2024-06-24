@@ -43,7 +43,6 @@ def process_single_image(instruction, images, should_translate):
     # Load the pretrained model (Translation Text)
     t_tokenizer = AutoTokenizer.from_pretrained("mayflowergmbh/occiglot-7b-de-en-instruct-hf", use_fast=True)
     t_model = AutoModelForCausalLM.from_pretrained("mayflowergmbh/occiglot-7b-de-en-instruct-hf", load_in_4bit=True)
-    # t_model.to(device, dtype=torch.float4)
 
     print(f"Translation model ready on {device}")
 
